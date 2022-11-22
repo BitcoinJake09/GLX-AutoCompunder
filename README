@@ -1,0 +1,9 @@
+Python AutoClaim & AutoStake script!
+set to claim in 15 and stake in 15 minute intervals
+simply replace hivename and posting key, run with python3, pip3 install missing dependencies:
+
+pip3 install requests_html
+pip3 install beem
+
+HIVE/GLX donations: @bitcoinjake09
+https://peakd.com/@bitcoinjake09/
