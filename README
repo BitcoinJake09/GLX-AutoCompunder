@@ -5,5 +5,9 @@ simply replace hivename and posting key, run with python3, pip3 install missing 
 pip3 install requests_html
 pip3 install beem
 
+*modify your hive name and posting key in code
+
+python3 glx-compunder.py
+
 HIVE/GLX donations: @bitcoinjake09
 https://peakd.com/@bitcoinjake09/
