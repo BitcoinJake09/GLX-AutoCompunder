@@ -107,7 +107,7 @@ async def update24():
     while True: #every 24 hours this should spit out some numbers xD
         t24 = time24 + datetime.timedelta(hours = 24)
         if t24 < datetime.datetime.now():
-            print(str(timeNow()) + ": " + str(staked24) + " STAKED in 24 hours!! \n Balance increased from: " + str("{0:.3f}".format(balance24)) + " to: " +str("{0:.3f}".format(getGLXPbalance())) + " GLX!")
+            print(str(timeNow()) + ": " + str(str("{0:.3f}".format(staked24))) + " STAKED in 24 hours!! \n Balance increased from: " + str("{0:.3f}".format(balance24)) + " to: " +str("{0:.3f}".format(getGLXPbalance())) + " GLX!")
             balance24 = getGLXPbalance()
             staked24 = 0
             time24 = datetime.datetime.now()
