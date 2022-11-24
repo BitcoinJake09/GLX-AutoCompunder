@@ -1,13 +1,26 @@
+uses python3.8+
+
+Linux by @bitcoinJake09:
 Python AutoClaim & AutoStake script!
 set to claim in 15 and stake in 15 minute intervals
 simply replace hivename and posting key, run with python3, pip3 install missing dependencies:
-
+1. sudo apt-get install python3.8
+2. Install 'beem' and 'requests_html' with the 'Terminal' app
 pip3 install requests_html
 pip3 install beem
+3. *modify your hive name and posting key in code
+4. Change intervals ('claimTime' and 'stakeTime') if you want to in glx-compunder.py (default is 15 min)
+5. run: python3 glx-compunder.py
 
-*modify your hive name and posting key in code
-
-python3 glx-compunder.py
+Mac by @oliverschmid:
+1. Download and install Python 3.9.6 (https://www.python.org/downloads/macos/)
+2. Install 'beem' and 'requests_html' with the 'Terminal' app
+pip3 install requests_html
+pip3 install beem
+3. Download the script: https://github.com/BitcoinJake09/GLX-AutoCompunder 
+4. Replace hivename and posting key in glx-compunder.py
+5. Change intervals ('claimTime' and 'stakeTime') if you want to in glx-compunder.py (default is 15 min)
+6. Run glx-compunder.py
 
 HIVE/GLX donations: @bitcoinjake09
 https://peakd.com/@bitcoinjake09/
